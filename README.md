@@ -146,7 +146,7 @@ d) You may change the test images by going to test_production.py file and change
 
 -  Hyperparameters tuning to get a better validation accuracy.
 -  Train for a longer period of time
--  get more dataset for training and then train again
+-  Get more dataset for training and then train again
 -  Dockerize so that it can be productionised
 
 
