@@ -42,19 +42,27 @@ These were the steps in brief taken to carry out the project
 <div style="text-align: center"><img src="01050.jpg" width="300"/></div>
 
 
-* So we used the meta data provided in the dataset and preprocessed the data by cropping out the images using the bounding box information provided. After the images were cropped out it was saved accordingly to the corresponding train and valid folders inside the dataset directory. The script for the preprocessing the data is provided [here](https://github.com/spcCodes/Grab_AI_for_SEA/blob/master/car_preprocessing.py)
+* So we used the meta data provided in the dataset and preprocessed the data by cropping out the images using the bounding box information provided. After the images were cropped out it was saved accordingly to the corresponding train and valid folders inside the dataset directory. The script for the preprocessing the data is provided  in the 'scripts/car_preprocessing.py'[here]()
+
+The script to run the preprocessing file is :
+
+```
+python scripts/car_preprocessing.py
+```
 
 This will save the files in 'data/train' and 'data/valid' folders.
 
 **2. Step 2: Training the  model**
 
-* So now after the data is ready, we used ResNet-152 pretrained model and fined tuned it for our custom car recognition.The ResNet-152 model can be downloaded from [here](https://drive.google.com/open?id=1GN82oE2vYrOUU3D0NdfMZ5dfzkGlkGYv). Please down the folder named 'pretrained' and save it in the project directory.
+* So now after the data is ready, we used ResNet-152 pretrained model and fined tuned it for our custom car recognition.The ResNet-152 model can be downloaded from [here](https://drive.google.com/open?id=1GN82oE2vYrOUU3D0NdfMZ5dfzkGlkGYv). Please download the folder named 'pretrained' and save it in the project directory.
 
 * Now we train the model using the script called 'train_resnet.py' which is inside the 'src' directory. The comand to run the script is as follows
 
 ```
 python src/train_resnet.py
 ```
+
+After running for 100 epochs , the model gets saved in 'models' directory. The validation accuracy stands at 90%.
 
 
 
