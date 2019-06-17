@@ -93,6 +93,22 @@ After running for 100 epochs , the model gets saved in 'models' directory. The v
 
 * Since the model file size was large and was not being allowed to upload in git, so you can download the file from [here](https://drive.google.com/open?id=1WODMqBZEGqfuudpFrjiL_RzO06H8JggK) and save it in 'models' directory.
 
+**3. Step 3: Testing the  model**
+
+* Now since we have the trained model in 'models' folder , we defined a class 'car_recognition' which is being saved in 'src' directory. 
+* Several test images are being kept in 'tests' directory to check whether our model is working properly.
+
+The script to run the test for evaluation is:
+
+```
+python test_car.py
+
+```
+
+Note: To check whether other images are being detected properly, change the images name in line no 5 by looking at 'tests' folder and then run the above script again
+
+
+
 
 
 
