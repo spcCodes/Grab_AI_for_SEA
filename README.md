@@ -69,7 +69,7 @@ These were the steps in brief taken to carry out the project
 <div style="text-align: center"><img src="images/01050.jpg" width="300"/></div>
 
 
-* So I used the meta data provided in the dataset and preprocessed the data by cropping out the images using the bounding box information provided. After the images were cropped out it was saved accordingly to the corresponding train and valid folders inside the dataset directory. The script for the preprocessing the data is provided  in the 'scripts/car_preprocessing.py'[here]()
+* So I used the meta data provided in the dataset and preprocessed the data by cropping out the images using the bounding box information provided. After the images were cropped out it was saved accordingly to the corresponding train and valid folders inside the dataset directory. The script for the preprocessing the data is provided  in the 'scripts/car_preprocessing.py'[here](https://github.com/spcCodes/Grab_AI_for_SEA/blob/master/scripts/car_preprocessing.py)
 
 The script to run the preprocessing file is :
 
@@ -77,7 +77,7 @@ The script to run the preprocessing file is :
 python scripts/car_preprocessing.py
 ```
 
-This will save the files in 'data/train' and 'data/valid' folders.
+This will save the files in 'data/train' and 'data/valid' folders. Since the data folder size was too large (around 1.56 gb) it could not be included. However if we run the above script it will generate the data folder
 
 **2. Step 2: Training the  model**
 
