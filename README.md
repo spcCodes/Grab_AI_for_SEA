@@ -40,5 +40,5 @@ These were the steps in brief taken to carry out the project
 <div style="text-align: center"><img src="01050.jpg" width="300"/></div>
 
 
-So we used the meta data provided in the dataset and preprocessed the data and saved it in corresponding train and valid folders inside the dataset directory.
+So we used the meta data provided in the dataset and preprocessed the data by cropping out the images using the bounding box information provided. After the images were cropped out it was saved accordingly to the corresponding train and valid folders inside the dataset directory. The script for the preprocessing the data is provided [here]
 
