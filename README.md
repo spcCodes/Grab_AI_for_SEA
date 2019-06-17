@@ -3,10 +3,11 @@ This project focusses on automatic car recognition which was build using pretrai
 
 ## Table of contents
 * [General info](#general-info)
-* [Project Structure](#technologies)
-* [Setup](#setup)
+* [Project Structure](#project_str)
+* [Dataset](#data)
 * [Project Execution Steps](#project)
 
+<a name="general-info"></a>
 ## General info
 The objective of this project is to develop a working model that can automatically identify cars given an image. It is targeted to serve as an automatic car recognition api.
 
@@ -18,6 +19,7 @@ The codes for the project is kept in the src folder and the common scripts are k
 
 Current validation accuracy for the cars dataset stands at 90% which can be further improved if trained for a larger period of time. Due to time constraints , further hyper-parameter optimisation for the network could not be done.
 
+<a name="project_str"></a>
 ## Project Structure
 
 The entire project structure is as follows:
@@ -46,7 +48,7 @@ The entire project structure is as follows:
 |__ tests
 
 ```
-
+<a name="data"></a>
 ## Dataset
 
 The dataset for this challenge was taken from [cars dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
@@ -54,7 +56,7 @@ The dataset for this challenge was taken from [cars dataset](https://ai.stanford
 The Cars dataset contains 16,185 images of 196 classes of cars. The data is split into 8,144 training images and 8,041 testing images. As the GRAB AI challenge clearly stated just to take the training dataset for preparing the model , only the [training set](http://imagenet.stanford.edu/internal/car196/cars_train.tgz) containing 8144 inages were taken for training our model.
 The [meta data](https://ai.stanford.edu/~jkrause/cars/car_devkit.tgz) was used to crop out the images.
 
-
+<a name="project"></a>
 ## Project Execution Steps
 
 These were the steps in brief taken to carry out the project
