@@ -34,11 +34,6 @@ The [meta data](https://ai.stanford.edu/~jkrause/cars/car_devkit.tgz) was used t
 
 These were the steps in brief taken to carry out the project
 
--- custom_layers
-|--- scale_layer.py
--- data
-|--- train
-|--- valid
 ```
 
 ├── custom_layers
