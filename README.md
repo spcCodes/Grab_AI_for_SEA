@@ -120,7 +120,7 @@ Note: To check whether other images are being detected properly, change the imag
 <a name="flask"></a>
 ## Flask App
 
-I ahve also created a flask app which would take an image and give recognition in real time. To run the flask app below is the steps
+I have also created a flask app which would take an image and give recognition in real time. To run the flask app below is the steps
 
 a) Go to the project structure
 b) In a terminal run
