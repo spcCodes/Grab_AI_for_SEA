@@ -6,6 +6,7 @@ This project focusses on automatic car recognition which was build using pretrai
 * [Project Structure](#technologies)
 * [Setup](#setup)
 * [Project Execution Steps](#projectexe)
+
 ## General info
 The objective of this project is to develop a working model that can automatically identify cars given an image. It is targeted to serve as an automatic car recognition api.
 
@@ -31,4 +32,9 @@ The [meta data](https://ai.stanford.edu/~jkrause/cars/car_devkit.tgz) was used t
 
 ## Project Execution Steps
 
+These were the steps in brief taken to carry out the project
+
+1. Step 1: Analysing the dataset and Data preprocessing
+
+-- We looked at some of the samples of the data and found that apart from the images of car, there were reduntant information like person , various background etc. So we used the meta data provided in the dataset and preprocessed the data and saved it in corresponding train and valid folders inside the dataset directory.
 
