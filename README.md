@@ -148,7 +148,7 @@ d) You may change the test images by going to test_production.py file and change
 
 <div style="text-align: center"><img src="images/output1.png" width="300"/></div>
 <div style="text-align: center"><img src="images/output2.png" width="300"/></div>
-<div style="text-align: center"><img src="images/output2.png" width="300"/></div>
+<div style="text-align: center"><img src="images/output3.png" width="300"/></div>
 
 <a name="future"></a>
 ## Future Work
