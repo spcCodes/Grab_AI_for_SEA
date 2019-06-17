@@ -34,6 +34,29 @@ The [meta data](https://ai.stanford.edu/~jkrause/cars/car_devkit.tgz) was used t
 
 These were the steps in brief taken to carry out the project
 
+├── custom_layers
+│   └── scale_layer.py
+├── data
+│   ├── train (196 car folders containing images of training dataset)
+│   └── valid [196 car folders containing images of validation dataset]
+├── images
+│   └── 01050.jpg
+├── meta_info
+│   ├── cars_meta.mat
+│   └── cars_train_annos.mat
+├── models
+│   └── model.35-0.90.hdf5
+├── pretrained
+│   └── resnet152_weights_tf.h5
+├── scripts
+│   └── car_preprocessing.py
+├── src
+│   ├── resnet152.py
+│   └── train_resnet.py
+└── README.md
+|__ tests
+
+
 **1. Step 1: Downloading the dataset and Data preprocessing**
 
 * The first step is to download the dataset from the [link](http://imagenet.stanford.edu/internal/car196/cars_train.tgz) ,extract it and and save it in the folder called 'cars_train'.
