@@ -6,6 +6,8 @@ This project focusses on automatic car recognition which was build using pretrai
 * [Project Structure](#project_str)
 * [Dataset](#data)
 * [Project Execution Steps](#project)
+* [Flask App] (#flask)
+* [Future Work] (#future)
 
 <a name="general-info"></a>
 ## General info
@@ -107,6 +109,37 @@ python test_car.py
 
 Note: To check whether other images are being detected properly, change the images name in line no 5 by looking at 'tests' folder and then run the above script again
 
+<a name="flask"></a>
+## Flask App
+
+I ahve also created a flask app which would take an image and give recognition in real time. To run the flask app below is the steps
+
+a) Go to the project structure
+b) In a terminal run
+
+```
+python app.py
+```
+
+c) In another terminal , run test_production.py to see the output
+
+The output for the app would look somewhat like this
+
+```
+{"result":{"Probabilty":"0.98948854","Recognised Car":"BMW M6 Convertible 2010"}}
+
+```
+
+d) You may change the test images by going to test_production.py file and change the image number 
+
+
+<a name="future"></a>
+## Future Work
+
+a) Hyperparameters tuning to get a better validation accuracy.
+b) Train for a longer period of time
+c) get more dataset for training and then train again
+d) Dockerize so that it can be productionised
 
 
 
