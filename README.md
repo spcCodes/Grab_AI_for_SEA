@@ -6,8 +6,8 @@ This project focusses on automatic car recognition which was build using pretrai
 * [Project Structure](#project_str)
 * [Dataset](#data)
 * [Project Execution Steps](#project)
-* [Flask App] (#flask)
-* [Future Work] (#future)
+* [Flask App](#flask)
+* [Future Work](#future)
 
 <a name="general-info"></a>
 ## General info
