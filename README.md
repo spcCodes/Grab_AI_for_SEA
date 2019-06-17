@@ -5,7 +5,7 @@ This project focusses on automatic car recognition which was build using pretrai
 * [General info](#general-info)
 * [Project Structure](#technologies)
 * [Setup](#setup)
-* [Project Execution Steps](#projectexe)
+* [Project Execution Steps](#project)
 
 ## General info
 The objective of this project is to develop a working model that can automatically identify cars given an image. It is targeted to serve as an automatic car recognition api.
