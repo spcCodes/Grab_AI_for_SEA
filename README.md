@@ -7,6 +7,7 @@ This project focusses on automatic car recognition which was build using pretrai
 * [Dataset](#data)
 * [Project Execution Steps](#project)
 * [Flask App](#flask)
+* [Result Images](#images)
 * [Future Work](#future)
 
 <a name="general-info"></a>
@@ -140,6 +141,14 @@ The output for the app would look somewhat like this
 
 d) You may change the test images by going to test_production.py file and change the image number from line no 29
 
+<a name="images"></a>
+## Result Images
+
+* Some of the result images and thier correct outputs are shown below:
+
+<div style="text-align: center"><img src="images/output1.png" width="300"/></div>
+<div style="text-align: center"><img src="images/output2.png" width="300"/></div>
+<div style="text-align: center"><img src="images/output2.png" width="300"/></div>
 
 <a name="future"></a>
 ## Future Work
