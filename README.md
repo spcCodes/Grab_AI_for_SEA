@@ -39,7 +39,7 @@ These were the steps in brief taken to carry out the project
 -- data
 |--- train
 |--- valid
-
+```
 
 ├── custom_layers
 │   └── scale_layer.py
@@ -63,7 +63,7 @@ These were the steps in brief taken to carry out the project
 └── README.md
 |__ tests
 
-
+```
 **1. Step 1: Downloading the dataset and Data preprocessing**
 
 * The first step is to download the dataset from the [link](http://imagenet.stanford.edu/internal/car196/cars_train.tgz) ,extract it and and save it in the folder called 'cars_train'.
