@@ -107,7 +107,7 @@ python test_car.py
 
 ```
 
-Note: To check whether other images are being detected properly, change the images name in line no 5 by looking at 'tests' folder and then run the above script again
+Note: To check whether other images are being detected properly, change the images name in line no 17 by looking at 'tests' folder and then run the above script again
 
 <a name="flask"></a>
 ## Flask App
@@ -130,7 +130,7 @@ The output for the app would look somewhat like this
 
 ```
 
-d) You may change the test images by going to test_production.py file and change the image number 
+d) You may change the test images by going to test_production.py file and change the image number from line no 29
 
 
 <a name="future"></a>
