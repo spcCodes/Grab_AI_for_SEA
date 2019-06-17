@@ -66,7 +66,7 @@ These were the steps in brief taken to carry out the project
 * The first step is to download the dataset from the [link](http://imagenet.stanford.edu/internal/car196/cars_train.tgz) ,extract it and and save it in the folder called 'cars_train'.
 
 * I looked at some of the samples of the data and found that apart from the images of car, there were reduntant information like person , various background etc. One such example is shown in the figure below
-<div style="text-align: center"><img src="01050.jpg" width="300"/></div>
+<div style="text-align: center"><img src="images/01050.jpg" width="300"/></div>
 
 
 * So I used the meta data provided in the dataset and preprocessed the data by cropping out the images using the bounding box information provided. After the images were cropped out it was saved accordingly to the corresponding train and valid folders inside the dataset directory. The script for the preprocessing the data is provided  in the 'scripts/car_preprocessing.py'[here]()
