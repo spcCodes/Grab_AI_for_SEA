@@ -46,7 +46,15 @@ These were the steps in brief taken to carry out the project
 
 This will save the files in 'data/train' and 'data/valid' folders.
 
+**1. Step 2: Training the  model **
 
+* So now after the data is ready, we used ResNet-152 pretrained model and fined tuned it for our custom car recognition.The ResNet-152 model can be downloaded from [here](https://drive.google.com/open?id=1GN82oE2vYrOUU3D0NdfMZ5dfzkGlkGYv). Please down the folder named 'pretrained' and save it in the project directory.
+
+* Now we train the model using the script called 'train_resnet.py' which is inside the 'src' directory. The comand to run the script is as follows
+
+```
+python src/train_resnet.py
+```
 
 
 
