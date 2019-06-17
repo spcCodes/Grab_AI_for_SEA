@@ -42,3 +42,6 @@ These were the steps in brief taken to carry out the project
 
 So we used the meta data provided in the dataset and preprocessed the data by cropping out the images using the bounding box information provided. After the images were cropped out it was saved accordingly to the corresponding train and valid folders inside the dataset directory. The script for the preprocessing the data is provided [here](https://github.com/spcCodes/Grab_AI_for_SEA/blob/master/car_preprocessing.py)
 
+
+
+
