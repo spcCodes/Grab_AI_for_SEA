@@ -47,7 +47,15 @@ The entire project structure is as follows:
 │   ├── resnet152.py
 │   └── train_resnet.py
 └── README.md
-|__ tests
+|-- requirements.txt
+|-- test_car.py
+|-- test_production.py
+|-- app.py
+|-- utils.py
+|--tests
+|---tests/00016.jpg
+|---tests/00019.jpg
+|--- .....
 
 ```
 <a name="data"></a>
