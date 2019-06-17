@@ -34,13 +34,23 @@ The [meta data](https://ai.stanford.edu/~jkrause/cars/car_devkit.tgz) was used t
 
 These were the steps in brief taken to carry out the project
 
-**1. Step 1: Analysing the dataset and Data preprocessing**
+**1. Step 1: Downloading the dataset and Data preprocessing**
+
+* The first step is to download the dataset from the [link](http://imagenet.stanford.edu/internal/car196/cars_train.tgz) ,extract it and and save it in the folder called 'cars_train'.
 
 * We looked at some of the samples of the data and found that apart from the images of car, there were reduntant information like person , various background etc. One such example is shown in the figure below
 <div style="text-align: center"><img src="01050.jpg" width="300"/></div>
 
 
-So we used the meta data provided in the dataset and preprocessed the data by cropping out the images using the bounding box information provided. After the images were cropped out it was saved accordingly to the corresponding train and valid folders inside the dataset directory. The script for the preprocessing the data is provided [here](https://github.com/spcCodes/Grab_AI_for_SEA/blob/master/car_preprocessing.py)
+* So we used the meta data provided in the dataset and preprocessed the data by cropping out the images using the bounding box information provided. After the images were cropped out it was saved accordingly to the corresponding train and valid folders inside the dataset directory. The script for the preprocessing the data is provided [here](https://github.com/spcCodes/Grab_AI_for_SEA/blob/master/car_preprocessing.py)
+
+This will save the files in 'data/train' and 'data/valid' folders.
+
+
+
+
+
+
 
 
 
