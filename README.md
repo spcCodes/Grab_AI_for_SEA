@@ -34,7 +34,7 @@ The [meta data](https://ai.stanford.edu/~jkrause/cars/car_devkit.tgz) was used t
 
 These were the steps in brief taken to carry out the project
 
-1. Step 1: Analysing the dataset and Data preprocessing
+**1. Step 1: Analysing the dataset and Data preprocessing**
 
 * We looked at some of the samples of the data and found that apart from the images of car, there were reduntant information like person , various background etc. So we used the meta data provided in the dataset and preprocessed the data and saved it in corresponding train and valid folders inside the dataset directory.
 
