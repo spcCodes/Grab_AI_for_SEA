@@ -89,6 +89,8 @@ python src/train_resnet.py
 
 After running for 100 epochs , the model gets saved in 'models' directory. The validation accuracy stands at 90%.
 
+* Since the model file size was large and was not being allowed to upload in git, so you can download the file from [here](https://drive.google.com/open?id=1WODMqBZEGqfuudpFrjiL_RzO06H8JggK)
+
 
 
 
