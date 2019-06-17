@@ -144,10 +144,10 @@ d) You may change the test images by going to test_production.py file and change
 <a name="future"></a>
 ## Future Work
 
-- a) Hyperparameters tuning to get a better validation accuracy.
-- b) Train for a longer period of time
-- c) get more dataset for training and then train again
-- d) Dockerize so that it can be productionised
+-  Hyperparameters tuning to get a better validation accuracy.
+-  Train for a longer period of time
+-  get more dataset for training and then train again
+-  Dockerize so that it can be productionised
 
 
 
